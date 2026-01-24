@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Revault Hospital</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Revault Hospital</h1>
+
+  <section>
+    <h2>Add Patient</h2>
+    <input id="pname" placeholder="Name" />
+    <input id="page" placeholder="Age" type="number" />
+    <select id="pgender">
+      <option>Male</option>
+      <option>Female</option>
+    </select>
+    <input id="pillness" placeholder="Type of Illness" />
+    <textarea id="pprescription" placeholder="Prescriptions" rows="3"></textarea>
+    <button onclick="addPatient()">Add</button>
+  </section>
+
+  <section>
+    <h2>Patients</h2>
+    <ul id="patientList"></ul>
+  </section>
+
+  <script src="Javascript.js"></script>
+</body>
+</html>
+
+
+
